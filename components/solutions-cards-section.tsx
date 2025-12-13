@@ -13,7 +13,7 @@ const solutions = [
   },
   {
     icon: Zap,
-    title: "Voice Agents",
+    title: "BoomVoice",
     description: "Contacta leads em segundos, sem intervenção humana. Agentes de voz que qualificam e agendam.",
     gradient: "from-cyan-500 to-teal-500",
     href: "/agentes-voz",

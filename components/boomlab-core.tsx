@@ -15,7 +15,7 @@ const solutions = [
   {
     id: 1,
     icon: Zap,
-    title: "Voice Agents",
+    title: "BoomVoice",
     description: "Contacta leads em segundos, sem intervenção humana",
     color: "from-cyan-500 to-teal-500",
     iconColor: "text-cyan-400",

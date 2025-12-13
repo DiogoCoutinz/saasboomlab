@@ -13,7 +13,7 @@ export default function AgentesVozPage() {
         <div className="max-w-4xl mx-auto text-center">
           <div className="inline-flex items-center gap-2 bg-cyan-500/10 border border-cyan-500/20 rounded-full px-4 py-2 mb-6">
             <Phone className="w-4 h-4 text-cyan-400" />
-            <span className="text-cyan-400 text-sm font-medium">Voice Agents</span>
+            <span className="text-cyan-400 text-sm font-medium">BoomVoice</span>
           </div>
           
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
@@ -41,7 +41,7 @@ export default function AgentesVozPage() {
       <section className="py-16 px-6 bg-gradient-to-b from-transparent to-cyan-500/5">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-12">
-            Para quem são os Voice Agents?
+            Para quem é o BoomVoice?
           </h2>
           
           <div className="grid md:grid-cols-3 gap-8">
@@ -142,7 +142,7 @@ export default function AgentesVozPage() {
               {
                 step: "2",
                 title: "Ativação Automática",
-                description: "Quando um lead entra no sistema, o Voice Agent contacta automaticamente, faz as perguntas de qualificação e avalia interesse e timing de compra.",
+                description: "Quando um lead entra no sistema, o BoomVoice contacta automaticamente, faz as perguntas de qualificação e avalia interesse e timing de compra.",
               },
               {
                 step: "3",
@@ -230,10 +230,10 @@ export default function AgentesVozPage() {
         <div className="max-w-4xl mx-auto text-center">
           <div className="rounded-3xl bg-gradient-to-br from-cyan-500/10 to-teal-500/10 border border-cyan-500/20 p-12">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-              Experimenta um Voice Agent em ação
+              Experimenta o BoomVoice em ação
             </h2>
             <p className="text-gray-400 text-lg mb-8 max-w-2xl mx-auto">
-              Agenda uma demonstração e recebe uma chamada do nosso Voice Agent. 
+              Agenda uma demonstração e recebe uma chamada do BoomVoice. 
               Vê em primeira mão como funciona a tecnologia.
             </p>
             <Button
