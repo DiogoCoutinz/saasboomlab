@@ -3,10 +3,10 @@ import { Button } from "@/components/ui/button"
 
 export function HeroSection() {
   return (
-    <section className="relative pt-28 pb-8 px-6">
+    <section className="relative pt-20 pb-6 px-6">
       <div className="max-w-7xl mx-auto">
         {/* Hero Card */}
-        <div className="relative rounded-3xl bg-gradient-to-br from-[#1a1a2e] to-[#0d0d1a] overflow-hidden min-h-[500px] md:min-h-[550px]">
+        <div className="relative rounded-3xl bg-gradient-to-br from-[#1a1a2e] to-[#0d0d1a] overflow-hidden min-h-[400px] md:min-h-[450px]">
           {/* Content Grid */}
           <div className="relative z-10 grid lg:grid-cols-2 gap-8 p-8 md:p-12 lg:p-16 h-full">
             {/* Left - Text Content */}
