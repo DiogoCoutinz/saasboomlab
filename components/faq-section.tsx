@@ -6,29 +6,29 @@ import { cn } from "@/lib/utils"
 
 const faqs = [
   {
-    question: "O pagamento de 1€ é seguro?",
+    question: "Quanto tempo demora a implementação?",
     answer:
-      "Sim, absolutamente. Todos os pagamentos são processados de forma segura via Stripe, a plataforma de pagamentos líder mundial. Os seus dados financeiros nunca são armazenados nos nossos servidores.",
+      "A implementação varia entre 1 a 3 semanas, dependendo da solução e do nível de personalização. O nosso CRM pode estar operacional em poucos dias, enquanto integrações mais complexas podem requerer até 3 semanas. Incluímos onboarding e formação da equipa.",
   },
   {
-    question: "O que acontece depois do pagamento?",
+    question: "As soluções são personalizadas?",
     answer:
-      "Após o pagamento ser confirmado, o nosso agente de voz IA liga-lhe em segundos para demonstrar as capacidades do BoomVoice. É uma experiência interativa e personalizada.",
+      "Sim, todas as nossas soluções são adaptadas ao teu negócio. Configuramos os agentes de voz com a tua marca, ajustamos o CRM ao teu processo de vendas e personalizamos o FinAI para os teus requisitos específicos.",
   },
   {
-    question: "Posso personalizar a voz do agente?",
+    question: "Integra com software existente?",
     answer:
-      "Sim, oferecemos várias opções de personalização. Temos vozes masculinas e femininas, diferentes sotaques e tonalidades para se adaptarem à identidade da sua marca.",
+      "Sim. As nossas soluções integram-se com os principais CRMs, ERPs e ferramentas de gestão através de APIs. Suportamos integração com Salesforce, HubSpot, Pipedrive, entre outros. A nossa equipa trata de toda a configuração.",
   },
   {
-    question: "Como funciona a integração com o meu CRM?",
+    question: "Que tipo de empresas usam a BoomLab?",
     answer:
-      "O nosso CRM All-in-One integra-se facilmente com as suas ferramentas existentes através de API. A nossa equipa auxilia em todo o processo de configuração sem custos adicionais.",
+      "Trabalhamos principalmente com empresas B2B de 10 a 500 colaboradores em setores como imobiliário, seguros, finanças e consultoria. Os nossos clientes procuram automatizar vendas, operações e análise financeira.",
   },
   {
-    question: "O FinAI funciona com todos os bancos portugueses?",
+    question: "Como funciona o onboarding?",
     answer:
-      "O FinAI está integrado com os principais bancos portugueses e suporta a maioria dos formatos de documentos financeiros. Contacte-nos para confirmar compatibilidade específica.",
+      "O processo inclui: (1) Reunião de descoberta para entender o teu negócio, (2) Configuração e personalização das soluções, (3) Testes e ajustes, (4) Formação da equipa, (5) Go-live com suporte dedicado nas primeiras semanas.",
   },
 ]
 
