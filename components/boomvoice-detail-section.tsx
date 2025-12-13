@@ -76,6 +76,11 @@ export function BoomVoiceDetailSection() {
               trabalha 24 horas por dia, 7 dias por semana, sem pausas para café.
             </p>
 
+            {/* Impact Line */}
+            <p className="text-white font-semibold text-lg leading-relaxed max-w-xl">
+              Substitui equipas de chamadas manuais e garante que nenhum lead fica sem contacto.
+            </p>
+
             <ul className="space-y-3">
               {features.map((feature, index) => (
                 <li key={index} className="flex items-center gap-3">
@@ -85,14 +90,24 @@ export function BoomVoiceDetailSection() {
               ))}
             </ul>
 
-            <div className="pt-4">
+            <div className="flex flex-wrap gap-4 pt-4">
               <Link href="/agentes-voz">
                 <Button
                   size="lg"
-                  className="bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-400 hover:to-teal-400 text-white font-semibold px-8 py-6 text-base rounded-xl transition-all duration-300 group"
+                  className="bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-400 hover:to-teal-400 text-white font-semibold px-8 py-6 text-base rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 group"
                 >
-                  Conhecer o BoomVoice
+                  <Phone className="w-5 h-5 mr-2" />
+                  Experimentar por 1€
                   <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+                </Button>
+              </Link>
+              <Link href="/agentes-voz">
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="border-cyan-500/50 text-cyan-400 hover:bg-cyan-500/10 hover:text-cyan-300 font-semibold px-8 py-6 text-base rounded-xl transition-all duration-300"
+                >
+                  Saber mais
                 </Button>
               </Link>
             </div>
