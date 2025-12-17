@@ -1,5 +1,5 @@
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
-import { BoomLabCore } from "@/components/boomlab-core"
 
 export function HeroSection() {
   return (
@@ -12,29 +12,23 @@ export function HeroSection() {
             {/* Left - Text Content */}
             <div className="flex flex-col justify-center space-y-6">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight text-balance">
-                Automatizamos processos críticos{" "}
+                Soluções de IA{" "}
                 <span className="bg-gradient-to-r from-cyan-400 to-teal-400 bg-clip-text text-transparent">
-                  com IA
+                  que transformam
                 </span>
               </h1>
 
               <p className="text-gray-400 text-lg md:text-xl leading-relaxed max-w-xl text-pretty">
-                Sistemas inteligentes para vendas, operações e finanças, criados à medida do teu negócio.
+                Automatizamos o vosso negócio com Inteligência Artificial: agentes de voz, análise de documentos
+                financeiros e CRM inteligente que geram resultados todos os dias.
               </p>
 
-              <div className="flex flex-wrap gap-4 pt-2">
+              <div className="pt-2">
                 <Button
                   size="lg"
                   className="bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-400 hover:to-teal-400 text-white font-semibold px-8 py-6 text-base rounded-xl transition-all duration-300"
                 >
-                  Agendar demonstração
-                </Button>
-                <Button
-                  size="lg"
-                  variant="outline"
-                  className="border-cyan-500/50 text-cyan-400 hover:bg-cyan-500/10 hover:text-cyan-300 font-semibold px-8 py-6 text-base rounded-xl transition-all duration-300"
-                >
-                  Ver soluções
+                  Fala connosco
                 </Button>
               </div>
 
@@ -51,9 +45,18 @@ export function HeroSection() {
               </div>
             </div>
 
-            {/* Right - BoomLab Core Animation */}
-            <div className="relative flex items-center justify-center lg:justify-end min-h-[400px]">
-              <BoomLabCore />
+            {/* Right - 3D Abstract Visual */}
+            <div className="relative flex items-center justify-center lg:justify-end">
+              <div className="relative w-full max-w-md lg:max-w-lg">
+                <Image
+                  src="/images/image.png"
+                  alt="3D Abstract Infinity Shape"
+                  width={600}
+                  height={500}
+                  className="object-contain drop-shadow-2xl"
+                  priority
+                />
+              </div>
             </div>
           </div>
         </div>

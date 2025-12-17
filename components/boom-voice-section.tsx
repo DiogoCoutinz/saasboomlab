@@ -47,7 +47,7 @@ export function BoomVoiceSection() {
                   <span className="text-white text-sm">+40% Conversões</span>
                 </div>
                 <div className="absolute top-8 right-8 flex items-center gap-3 bg-white/5 backdrop-blur-sm rounded-full px-4 py-2">
-                  <Headphones className="w-4 h-4 text-purple-400" />
+                  <Headphones className="w-4 h-4 text-amber-400" />
                   <span className="text-white text-sm">Voz Natural</span>
                 </div>
               </div>
