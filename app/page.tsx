@@ -1,7 +1,8 @@
 import { Navbar } from "@/components/navbar"
 import { HeroSection } from "@/components/hero-section"
 import { LogoCarousel } from "@/components/logo-carousel"
-import { RotatingSolutionsSection } from "@/components/rotating-solutions-section"
+import { ServicesSection } from "@/components/services-section"
+import { BoomVoiceSection } from "@/components/boom-voice-section"
 import { FeaturesSection } from "@/components/features-section"
 import { FAQSection } from "@/components/faq-section"
 import { SpecialOfferSection } from "@/components/special-offer-section"
@@ -14,7 +15,8 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <LogoCarousel />
-      <RotatingSolutionsSection />
+      <ServicesSection />
+      <BoomVoiceSection />
       <FeaturesSection />
       <FAQSection />
       <SpecialOfferSection />
