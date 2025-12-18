@@ -22,7 +22,7 @@ export function Footer() {
       <div className="max-w-7xl mx-auto">
         {/* Logo */}
         <div className="flex justify-center mb-10">
-          <BoomLabLogo className="h-10" />
+          <BoomLabLogo className="h-9" />
         </div>
 
         {/* Navigation Links */}

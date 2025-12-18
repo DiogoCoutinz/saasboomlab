@@ -4,19 +4,12 @@ import { useState } from "react"
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Card, CardContent } from "@/components/ui/card"
-import { CheckCircle, Phone, Clock, Headphones, TrendingUp, Users2, Calendar, MessageSquare, Play, Lock, ChevronDown } from "lucide-react"
+import { TestVoiceModal } from "@/components/test-voice-modal"
+import { CheckCircle, Phone, Clock, Headphones, TrendingUp, Users2, Calendar, MessageSquare, Play, ChevronDown } from "lucide-react"
 
 export default function AgentesVozPage() {
   const [showAllProblems, setShowAllProblems] = useState(false)
-  const [name, setName] = useState("")
-  const [phone, setPhone] = useState("")
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    console.log({ name, phone })
-  }
+  const [showTestModal, setShowTestModal] = useState(false)
 
   const problems = [
     {
@@ -104,13 +97,23 @@ export default function AgentesVozPage() {
                 qualifica em tempo real e agenda reuniões. Se não atender, volta a ligar até conseguir.
               </p>
 
-              <Button
-                size="lg"
-                className="bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-400 hover:to-teal-400 text-white font-semibold px-8 py-6 text-base rounded-xl transition-all duration-300"
-                onClick={() => window.open('https://buy.stripe.com/test_cNi8wPcRO5dM6xN2EvgMw06', '_blank')}
-              >
-                Comprar agora
-              </Button>
+              <div className="flex flex-wrap gap-4">
+                <Button
+                  size="lg"
+                  className="bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-400 hover:to-teal-400 text-white font-semibold px-8 py-6 text-base rounded-xl transition-all duration-300"
+                  onClick={() => window.open('https://buy.stripe.com/test_cNi8wPcRO5dM6xN2EvgMw06', '_blank')}
+                >
+                  Comprar agora
+                </Button>
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="border-cyan-500/50 text-cyan-400 hover:bg-cyan-500/10 hover:text-cyan-300 font-semibold px-8 py-6 text-base rounded-xl transition-all duration-300"
+                  onClick={() => setShowTestModal(true)}
+                >
+                  Teste já!
+                </Button>
+              </div>
             </div>
 
             {/* Right - Video Placeholder */}
@@ -375,76 +378,6 @@ export default function AgentesVozPage() {
         </div>
       </section>
 
-      {/* Special Offer Section */}
-      <section className="py-24 px-6 relative overflow-hidden">
-        {/* Background glow */}
-        <div className="absolute inset-0 bg-gradient-to-b from-[#050505] via-cyan-950/20 to-[#050505]" />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-to-r from-cyan-600/20 to-teal-500/20 rounded-full blur-[150px]" />
-
-        <div className="relative z-10 max-w-3xl mx-auto">
-          <Card className="bg-gradient-to-b from-gray-900/90 to-gray-950/90 border-2 border-cyan-500/30 backdrop-blur-xl shadow-2xl shadow-cyan-500/10">
-            <CardContent className="p-8 md:p-12">
-              <div className="text-center mb-10">
-                <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 text-sm font-medium mb-6">
-                  <Phone className="w-4 h-4" />
-                  Oferta Especial
-                </div>
-                <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Teste o Agente de Voz Agora</h2>
-                <p className="text-gray-400 text-lg">
-                  Veja a magia acontecer em tempo real. Pague 1€ e receba uma chamada do nosso bot imediatamente.
-                </p>
-              </div>
-
-              <form onSubmit={handleSubmit} className="space-y-6">
-                <div className="space-y-4">
-                  <div>
-                    <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-2">
-                      Nome
-                    </label>
-                    <Input
-                      id="name"
-                      type="text"
-                      placeholder="O seu nome"
-                      value={name}
-                      onChange={(e) => setName(e.target.value)}
-                      className="bg-gray-900/50 border-white/10 text-white placeholder:text-gray-500 focus:border-cyan-500 focus:ring-cyan-500/20 h-12"
-                      required
-                    />
-                  </div>
-                  <div>
-                    <label htmlFor="phone" className="block text-sm font-medium text-gray-300 mb-2">
-                      Telemóvel
-                    </label>
-                    <Input
-                      id="phone"
-                      type="tel"
-                      placeholder="+351 912 345 678"
-                      value={phone}
-                      onChange={(e) => setPhone(e.target.value)}
-                      className="bg-gray-900/50 border-white/10 text-white placeholder:text-gray-500 focus:border-cyan-500 focus:ring-cyan-500/20 h-12"
-                      required
-                    />
-                  </div>
-                </div>
-
-                <Button
-                  type="submit"
-                  size="lg"
-                  className="w-full bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-400 hover:to-teal-400 text-white font-semibold py-6 text-lg rounded-xl transition-all duration-300 shadow-xl shadow-cyan-500/25 hover:shadow-cyan-500/40"
-                >
-                  <Lock className="w-5 h-5 mr-2" />
-                  Pagar 1€ e Receber Chamada
-                </Button>
-
-                <p className="text-center text-xs text-gray-500">
-                  Pagamento seguro processado por Stripe. Os seus dados estão protegidos.
-                </p>
-              </form>
-            </CardContent>
-          </Card>
-        </div>
-      </section>
-
       {/* CTA Final - Simplified */}
       <section className="py-20 px-6">
         <div className="max-w-4xl mx-auto text-center">
@@ -474,6 +407,11 @@ export default function AgentesVozPage() {
       </section>
 
       <Footer />
+      
+      <TestVoiceModal 
+        isOpen={showTestModal} 
+        onClose={() => setShowTestModal(false)}
+      />
     </main>
   )
 }
