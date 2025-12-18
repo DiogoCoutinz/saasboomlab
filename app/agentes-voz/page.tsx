@@ -107,8 +107,9 @@ export default function AgentesVozPage() {
               <Button
                 size="lg"
                 className="bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-400 hover:to-teal-400 text-white font-semibold px-8 py-6 text-base rounded-xl transition-all duration-300"
+                onClick={() => window.open('https://buy.stripe.com/test_cNi8wPcRO5dM6xN2EvgMw06', '_blank')}
               >
-                Agendar demonstração
+                Comprar agora
               </Button>
             </div>
 
@@ -411,8 +412,9 @@ export default function AgentesVozPage() {
             <Button
               size="lg"
               className="bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-400 hover:to-teal-400 text-white font-semibold px-10 py-6 text-lg rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 mb-6"
+              onClick={() => window.open('https://buy.stripe.com/test_cNi8wPcRO5dM6xN2EvgMw06', '_blank')}
             >
-              Começar implementação
+              Comprar agora
             </Button>
             <div className="max-w-xl mx-auto">
               <p className="text-gray-400 text-sm leading-relaxed">

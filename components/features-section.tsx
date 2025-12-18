@@ -8,12 +8,12 @@ import { useEffect, useRef, useState } from "react"
 const features = [
   {
     id: "finai",
-    badge: "FinAI",
+    badge: "FineAI",
     badgeIcon: FileText,
     title: "Análise de FINs bancárias",
     highlight: "em 40 segundos",
     description:
-      "O FinAI processa e compara documentos financeiros bancários instantaneamente. Extraia dados críticos, identifique as melhores propostas e tome decisões informadas com relatórios automáticos.",
+      "O FineAI processa e compara documentos financeiros bancários instantaneamente. Extraia dados críticos, identifique as melhores propostas e tome decisões informadas com relatórios automáticos.",
     impactLine: "Ideal para empresas, consultores e gestores que analisam propostas bancárias com frequência.",
     points: [
       "Processamento automático de FINs bancárias",

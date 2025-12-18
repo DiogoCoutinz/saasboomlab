@@ -8,7 +8,7 @@ import { Users, Zap, FileText, ArrowRight, Phone, TrendingUp, BarChart } from "l
 const solutions = [
   {
     icon: Users,
-    title: "CRM AI-in-One",
+    title: "CRM All-in-One",
     description: "Centraliza leads, follow-ups e vendas automaticamente. Pipeline visual e automação inteligente.",
     gradient: "from-purple-500 to-pink-500",
     href: "/crm-ai",
@@ -28,10 +28,10 @@ const solutions = [
   },
   {
     icon: FileText,
-    title: "FinAI",
+    title: "FineAI",
     description: "Analisa documentos financeiros em menos de 1 minuto. Comparação automática de propostas bancárias.",
     gradient: "from-blue-500 to-indigo-500",
-    href: "/finai",
+    href: "/fineai",
     cta: "Ver demonstração",
     ctaIcon: BarChart,
     featured: false,

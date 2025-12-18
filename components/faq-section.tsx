@@ -13,7 +13,7 @@ const faqs = [
   {
     question: "As soluções são personalizadas?",
     answer:
-      "Sim, todas as nossas soluções são adaptadas ao teu negócio. Configuramos os agentes de voz com a tua marca, ajustamos o CRM ao teu processo de vendas e personalizamos o FinAI para os teus requisitos específicos.",
+      "Sim, todas as nossas soluções são adaptadas ao teu negócio. Configuramos os agentes de voz com a tua marca, ajustamos o CRM ao teu processo de vendas e personalizamos o FineAI para os teus requisitos específicos.",
   },
   {
     question: "Integra com software existente?",

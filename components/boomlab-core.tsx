@@ -7,7 +7,7 @@ const solutions = [
   {
     id: 0,
     icon: Users,
-    title: "CRM AI-in-One",
+    title: "CRM All-in-One",
     description: "Centraliza leads, follow-ups e vendas automaticamente",
     color: "from-purple-500 to-pink-500",
     iconColor: "text-purple-400",
@@ -23,7 +23,7 @@ const solutions = [
   {
     id: 2,
     icon: FileText,
-    title: "FinAI",
+    title: "FineAI",
     description: "Analisa documentos financeiros em menos de 1 minuto",
     color: "from-blue-500 to-indigo-500",
     iconColor: "text-blue-400",
