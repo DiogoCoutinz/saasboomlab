@@ -1,7 +1,12 @@
 import { Button } from "@/components/ui/button"
 import { BoomLabCore } from "@/components/boomlab-core"
 
-export function HeroSection() {
+interface HeroSectionProps {
+  onScheduleDemo?: () => void
+  onViewSolutions?: () => void
+}
+
+export function HeroSection({ onScheduleDemo, onViewSolutions }: HeroSectionProps) {
   return (
     <section className="relative pt-20 pb-6 px-6">
       <div className="max-w-7xl mx-auto">
@@ -26,6 +31,7 @@ export function HeroSection() {
                 <Button
                   size="lg"
                   className="bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-400 hover:to-teal-400 text-white font-semibold px-8 py-6 text-base rounded-xl transition-all duration-300"
+                  onClick={onScheduleDemo}
                 >
                   Agendar demonstração
                 </Button>
@@ -33,6 +39,7 @@ export function HeroSection() {
                   size="lg"
                   variant="outline"
                   className="border-cyan-500/50 text-cyan-400 hover:bg-cyan-500/10 hover:text-cyan-300 font-semibold px-8 py-6 text-base rounded-xl transition-all duration-300"
+                  onClick={onViewSolutions}
                 >
                   Ver soluções
                 </Button>
