@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
+import Image from "next/image"
 import { Zap, Users, FileText } from "lucide-react"
 
 const solutions = [
@@ -47,14 +48,14 @@ export function BoomLabCore() {
       <div className="relative z-20">
         <div className="w-32 h-32 rounded-full bg-gradient-to-br from-cyan-500 via-teal-500 to-blue-500 flex items-center justify-center shadow-2xl animate-pulse-glow">
           <div className="w-28 h-28 rounded-full bg-[#0d0d1a] flex items-center justify-center border-2 border-cyan-400/30">
-            <div className="text-center">
-              <div className="text-white font-bold text-lg tracking-tight">
-                b
-                <span className="text-cyan-400">∞</span>
-                <span className="text-teal-400">m</span>
-              </div>
-              <div className="text-xs text-gray-400 font-medium">lab</div>
-            </div>
+            <Image
+              src="/boomlab-logo.png"
+              alt="BoomLab"
+              width={60}
+              height={20}
+              className="h-5 w-auto"
+              priority
+            />
           </div>
         </div>
         
