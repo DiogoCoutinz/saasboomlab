@@ -20,23 +20,23 @@ export default function AgentesVozPage() {
 
   const problems = [
     {
-      problem: "Leads ficam horas/dias sem contacto inicial",
-      solution: "Contacto automático em menos de 60 segundos após captura do lead",
+      problem: "Leads preenchem formulário mas ficam horas/dias sem ser contactados",
+      solution: "BoomVoice liga automaticamente em menos de 60 segundos após submissão",
       primary: true,
     },
     {
-      problem: "Custo elevado de equipas de prospeção",
-      solution: "Redução de até 70% nos custos de contacto inicial e qualificação",
+      problem: "Leads não atendem e ficam esquecidos sem follow-up",
+      solution: "Sistema volta a ligar automaticamente até conseguir contactar (24h, 48h, 72h)",
       primary: true,
     },
     {
-      problem: "Baixa taxa de contacto e follow-up inconsistente",
-      solution: "100% dos leads contactados com follow-ups persistentes até resposta",
+      problem: "Custo elevado de equipas de prospeção para qualificar leads",
+      solution: "Redução de até 70% nos custos - IA qualifica automaticamente e só passa leads quentes",
       primary: false,
     },
     {
-      problem: "Perda de oportunidades fora do horário comercial",
-      solution: "Atendimento e qualificação 24/7 sem custos adicionais",
+      problem: "Leads chegam fora do horário e perdem-se até ao dia seguinte",
+      solution: "BoomVoice funciona 24/7 - liga de noite, fim de semana, feriados",
       primary: false,
     },
   ]
@@ -45,35 +45,35 @@ export default function AgentesVozPage() {
     {
       icon: TrendingUp,
       title: "+60% reuniões agendadas",
-      description: "Contacto imediato e follow-ups persistentes aumentam dramaticamente o agendamento",
+      description: "Liga em segundos após formulário + follow-ups automáticos = mais conversões",
     },
     {
       icon: Clock,
-      title: "Contacto em menos de 60 segundos",
-      description: "Velocidade de resposta aumenta em 10x a probabilidade de conversão do lead",
+      title: "Contacto instantâneo 24/7",
+      description: "Cada lead que preenche formulário é contactado em minutos, mesmo à noite ou fim de semana",
     },
     {
       icon: Headphones,
-      title: "Voz natural e profissional",
-      description: "IA de última geração com voz indistinguível de humano, personalizada à tua marca",
+      title: "Qualificação em tempo real",
+      description: "IA conversa com o lead, faz perguntas de qualificação e só passa leads quentes para a equipa",
     },
   ]
 
   const secondaryBenefits = [
     {
       icon: MessageSquare,
-      title: "Transcrição e análise completa",
-      description: "Todas as chamadas gravadas, transcritas e analisadas para melhoria contínua",
+      title: "Follow-ups persistentes",
+      description: "Se não atender, volta a ligar automaticamente até conseguir contacto (sem desistir)",
     },
     {
       icon: Calendar,
-      title: "Integração com agenda",
-      description: "Sincronização automática com Google Calendar, Outlook e principais ferramentas",
+      title: "Agenda reuniões automaticamente",
+      description: "Marca reuniões diretamente na agenda da equipa durante a chamada com o lead",
     },
     {
       icon: Phone,
-      title: "Capacidade ilimitada",
-      description: "Escala instantaneamente para 100 ou 10.000 chamadas por dia sem contratar ninguém",
+      title: "Voz natural personalizada",
+      description: "Conversa natural com IA impossível de distinguir de humano, com o tom da tua marca",
     },
   ]
 
@@ -100,8 +100,8 @@ export default function AgentesVozPage() {
               </h1>
               
               <p className="text-gray-400 text-xl leading-relaxed mb-8">
-                Agentes de voz IA que qualificam leads, agendam reuniões e fazem follow-ups 
-                24 horas por dia, 7 dias por semana, sem pausas.
+                Inteligência artificial que liga automaticamente quando um lead preenche formulário, 
+                qualifica em tempo real e agenda reuniões. Se não atender, volta a ligar até conseguir.
               </p>
 
               <Button
@@ -243,18 +243,18 @@ export default function AgentesVozPage() {
             {[
               {
                 step: "1",
-                title: "Configuração e Personalização",
-                description: "Criamos scripts personalizados para o teu negócio, selecionamos a voz ideal e configuramos a integração com o teu CRM. Definimos critérios de qualificação específicos.",
+                title: "Lead Preenche Formulário",
+                description: "Cliente mostra interesse no teu website, formulário ou landing page. Assim que submete, o BoomVoice é ativado instantaneamente.",
               },
               {
                 step: "2",
-                title: "Ativação Automática",
-                description: "Quando um lead entra no sistema, o BoomVoice contacta automaticamente, faz as perguntas de qualificação e avalia interesse e timing de compra.",
+                title: "Chamada Automática e Qualificação",
+                description: "O agente de voz liga automaticamente em menos de 60 segundos. Conversa com o lead, faz perguntas de qualificação e avalia interesse real e timing de compra.",
               },
               {
                 step: "3",
-                title: "Agendamento Inteligente",
-                description: "Leads qualificados recebem proposta de agendamento imediato. O agente acede à agenda da tua equipa e marca reunião no slot conveniente para ambas as partes.",
+                title: "Agendamento ou Follow-up",
+                description: "Se qualificado, marca reunião imediatamente. Se não atender, o sistema volta a ligar 24 horas depois. Continua tentativas até contactar ou lead responder.",
               },
             ].map((item, index) => (
               <div key={index} className="flex gap-6">
@@ -275,8 +275,54 @@ export default function AgentesVozPage() {
           <div className="rounded-2xl bg-gradient-to-r from-cyan-500/10 to-teal-500/10 border border-cyan-500/20 p-8 text-center">
             <p className="text-xl text-white font-semibold leading-relaxed">
               <span className="bg-gradient-to-r from-cyan-400 to-teal-400 bg-clip-text text-transparent">Resultado:</span>
-              {" "}leads qualificados, reuniões marcadas e a tua equipa focada apenas em fechar vendas.
+              {" "}cada lead é contactado em minutos, qualificado automaticamente e as reuniões aparecem na tua agenda prontas a fechar.
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Personalização Destacada */}
+      <section className="py-16 px-6 relative overflow-hidden">
+        {/* Background glow */}
+        <div className="absolute inset-0 bg-gradient-to-b from-[#050505] via-cyan-950/10 to-[#050505]" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-gradient-to-r from-cyan-600/10 to-teal-500/10 rounded-full blur-[120px]" />
+
+        <div className="relative z-10 max-w-4xl mx-auto">
+          <div className="rounded-3xl bg-gradient-to-br from-[#1a1a2e]/90 to-[#0d0d1a]/90 border-2 border-cyan-500/30 p-10 md:p-12 backdrop-blur-xl shadow-2xl shadow-cyan-500/10">
+            <div className="text-center mb-8">
+              <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-cyan-500 to-teal-500 mb-6">
+                <MessageSquare className="w-8 h-8 text-white" />
+              </div>
+              <h3 className="text-3xl md:text-4xl font-bold text-white mb-4">
+                Script 100% Personalizado
+              </h3>
+              <p className="text-gray-400 text-lg leading-relaxed max-w-2xl mx-auto">
+                Não usamos scripts genéricos. Adaptamos cada conversa aos <span className="text-white font-semibold">teus produtos, 
+                serviços e critérios de qualificação específicos</span>.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-6">
+              {[
+                {
+                  title: "Teus Produtos",
+                  description: "Conhece e explica os teus serviços como se fosse da equipa"
+                },
+                {
+                  title: "Tuas Perguntas",
+                  description: "Faz as perguntas de qualificação que TU defines como importantes"
+                },
+                {
+                  title: "Teu Tom",
+                  description: "Voz e linguagem adaptada à personalidade da tua marca"
+                },
+              ].map((item, index) => (
+                <div key={index} className="text-center p-6 rounded-xl bg-white/5 border border-white/10">
+                  <h4 className="text-cyan-400 font-semibold mb-2">{item.title}</h4>
+                  <p className="text-gray-400 text-sm leading-relaxed">{item.description}</p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>

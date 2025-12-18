@@ -3,12 +3,12 @@ import { CheckCircle, Phone, Clock, TrendingUp, Headphones } from "lucide-react"
 
 export function BoomVoiceSection() {
   const features = [
-    "Atendimento automático 24/7 sem pausas",
-    "Qualificação inteligente de leads em tempo real",
-    "Agendamento automático de reuniões",
-    "Integração com o vosso CRM existente",
-    "Relatórios detalhados de cada chamada",
-    "Voz natural e personalizada para a vossa marca",
+    "Liga automaticamente quando lead preenche formulário",
+    "Script de chamada adaptado aos teus produtos e serviços",
+    "Qualificação inteligente baseada nos teus critérios",
+    "Agendamento automático de reuniões na tua agenda",
+    "Follow-ups persistentes se não atender (24h, 48h, 72h)",
+    "Voz natural personalizada com o tom da tua marca",
   ]
 
   return (

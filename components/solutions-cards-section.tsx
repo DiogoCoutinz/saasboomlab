@@ -19,7 +19,7 @@ const solutions = [
   {
     icon: Zap,
     title: "BoomVoice",
-    description: "Contacta leads em segundos, sem intervenção humana. Agentes de voz que qualificam e agendam.",
+    description: "Liga automaticamente quando lead preenche formulário. Qualifica e agenda reunião na hora.",
     gradient: "from-cyan-500 to-teal-500",
     href: "/agentes-voz",
     cta: "Testar agente de voz",

@@ -16,7 +16,7 @@ const solutions = [
     id: 1,
     icon: Zap,
     title: "BoomVoice",
-    description: "Contacta leads em segundos, sem intervenção humana",
+    description: "Liga automaticamente após formulário e agenda reuniões",
     color: "from-cyan-500 to-teal-500",
     iconColor: "text-cyan-400",
   },
