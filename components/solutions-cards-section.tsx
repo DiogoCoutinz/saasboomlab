@@ -10,7 +10,7 @@ const solutions = [
     icon: Users,
     title: "CRM All-in-One",
     description: "Centraliza leads, follow-ups e vendas automaticamente. Pipeline visual e automação inteligente.",
-    gradient: "from-purple-500 to-pink-500",
+    gradient: "from-green-500 to-emerald-500",
     href: "/crm-ai",
     cta: "Explorar CRM",
     ctaIcon: TrendingUp,

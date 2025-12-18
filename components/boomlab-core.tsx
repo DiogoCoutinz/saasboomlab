@@ -10,7 +10,7 @@ const solutions = [
     icon: Users,
     title: "CRM All-in-One",
     description: "Centraliza leads, follow-ups e vendas automaticamente",
-    color: "from-purple-500 to-pink-500",
+    color: "from-green-500 to-emerald-500",
     iconColor: "text-purple-400",
   },
   {

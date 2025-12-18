@@ -46,7 +46,7 @@ const features = [
     cta: "Explorar o CRM",
     href: "/crm-ai",
     reversed: true,
-    gradient: "from-purple-500 to-pink-500",
+    gradient: "from-green-500 to-emerald-500",
   },
 ]
 

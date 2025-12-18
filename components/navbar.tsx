@@ -41,8 +41,8 @@ export function Navbar() {
       description: "Centraliza leads, follow-ups e vendas",
       icon: Users,
       href: "/crm-ai",
-      color: "text-purple-400",
-      bgColor: "bg-purple-500/10"
+      color: "text-green-400",
+      bgColor: "bg-green-500/10"
     },
     {
       name: "FineAI",

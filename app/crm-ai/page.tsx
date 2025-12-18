@@ -21,14 +21,14 @@ export default function CRMAIPage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left - Text */}
             <div>
-              <div className="inline-flex items-center gap-2 bg-purple-500/10 border border-purple-500/20 rounded-full px-4 py-2 mb-6">
-                <Users className="w-4 h-4 text-purple-400" />
-                <span className="text-purple-400 text-sm font-medium">CRM All-in-One</span>
+              <div className="inline-flex items-center gap-2 bg-green-500/10 border border-green-500/20 rounded-full px-4 py-2 mb-6">
+                <Users className="w-4 h-4 text-green-400" />
+                <span className="text-green-400 text-sm font-medium">CRM All-in-One</span>
               </div>
               
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
                 Centraliza leads, follow-ups e vendas{" "}
-                <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent">
                   automaticamente
                 </span>
               </h1>
@@ -40,7 +40,7 @@ export default function CRMAIPage() {
 
               <Button
                 size="lg"
-                className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-400 hover:to-pink-400 text-white font-semibold px-8 py-6 text-base rounded-xl transition-all duration-300"
+                className="bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-400 hover:to-emerald-400 text-white font-semibold px-8 py-6 text-base rounded-xl transition-all duration-300"
                 onClick={() => setShowCalendar(true)}
               >
                 Agendar chamada
@@ -49,10 +49,10 @@ export default function CRMAIPage() {
 
             {/* Right - Video Placeholder */}
             <div className="relative">
-              <div className="aspect-video rounded-2xl bg-gradient-to-br from-[#1a1a2e] to-[#0d0d1a] border border-purple-500/30 overflow-hidden group cursor-pointer hover:border-purple-500/50 transition-all duration-300">
-                <div className="absolute inset-0 bg-gradient-to-br from-purple-500/5 to-pink-500/5" />
+              <div className="aspect-video rounded-2xl bg-gradient-to-br from-[#1a1a2e] to-[#0d0d1a] border border-green-500/30 overflow-hidden group cursor-pointer hover:border-green-500/50 transition-all duration-300">
+                <div className="absolute inset-0 bg-gradient-to-br from-green-500/5 to-emerald-500/5" />
                 <div className="absolute inset-0 flex flex-col items-center justify-center gap-4">
-                  <div className="w-20 h-20 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-2xl">
+                  <div className="w-20 h-20 rounded-full bg-gradient-to-br from-green-500 to-emerald-500 flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-2xl">
                     <Play className="w-10 h-10 text-white ml-1" />
                   </div>
                   <div className="text-center">
@@ -61,18 +61,18 @@ export default function CRMAIPage() {
                   </div>
                 </div>
               </div>
-              <div className="absolute -inset-4 bg-gradient-to-r from-purple-500/20 to-pink-500/20 rounded-2xl blur-2xl -z-10 opacity-50" />
+              <div className="absolute -inset-4 bg-gradient-to-r from-green-500/20 to-emerald-500/20 rounded-2xl blur-2xl -z-10 opacity-50" />
             </div>
           </div>
         </div>
       </section>
 
       {/* Para Quem É - Outcome Driven */}
-      <section className="py-16 px-6 bg-gradient-to-b from-transparent to-purple-500/5">
+      <section className="py-16 px-6 bg-gradient-to-b from-transparent to-green-500/5">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-4">
             Feito para equipas que{" "}
-            <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent">
               precisam de crescer
             </span>
             {" "}sem perder controlo
@@ -101,10 +101,10 @@ export default function CRMAIPage() {
             ].map((item, index) => (
               <div
                 key={index}
-                className="rounded-2xl bg-gradient-to-br from-[#1a1a2e]/80 to-[#0d0d1a]/80 border border-white/10 p-8 hover:border-purple-500/30 transition-all duration-300"
+                className="rounded-2xl bg-gradient-to-br from-[#1a1a2e]/80 to-[#0d0d1a]/80 border border-white/10 p-8 hover:border-green-500/30 transition-all duration-300"
               >
-                <div className="w-14 h-14 mb-6 rounded-xl bg-gradient-to-br from-purple-500/20 to-pink-500/20 flex items-center justify-center">
-                  <item.icon className="w-7 h-7 text-purple-400" />
+                <div className="w-14 h-14 mb-6 rounded-xl bg-gradient-to-br from-green-500/20 to-emerald-500/20 flex items-center justify-center">
+                  <item.icon className="w-7 h-7 text-green-400" />
                 </div>
                 <h3 className="text-xl font-bold text-white mb-3">{item.title}</h3>
                 <p className="text-gray-400 leading-relaxed text-base">{item.description}</p>
@@ -148,7 +148,7 @@ export default function CRMAIPage() {
                 key={index}
                 className={`rounded-2xl bg-gradient-to-br from-[#1a1a2e]/80 to-[#0d0d1a]/80 border transition-all duration-300 ${
                   item.primary && index === 0
-                    ? "border-purple-500/30 p-8 shadow-lg shadow-purple-500/10"
+                    ? "border-green-500/30 p-8 shadow-lg shadow-green-500/10"
                     : "border-white/10 p-6"
                 }`}
               >
@@ -161,7 +161,7 @@ export default function CRMAIPage() {
                       {item.problem}
                     </p>
                     <div className="flex gap-2">
-                      <CheckCircle className="w-5 h-5 text-purple-400 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-green-400 flex-shrink-0 mt-0.5" />
                       <p className={`text-white font-medium ${item.primary && index === 0 ? "text-lg" : ""}`}>
                         {item.solution}
                       </p>
@@ -177,7 +177,7 @@ export default function CRMAIPage() {
               <Button
                 variant="ghost"
                 onClick={() => setShowAllProblems(true)}
-                className="text-purple-400 hover:text-purple-300 hover:bg-purple-500/10 font-semibold"
+                className="text-green-400 hover:text-purple-300 hover:bg-green-500/10 font-semibold"
               >
                 Ver mais problemas
                 <ChevronDown className="w-4 h-4 ml-2" />
@@ -188,7 +188,7 @@ export default function CRMAIPage() {
       </section>
 
       {/* Como Funciona - With Closing Line */}
-      <section className="py-20 px-6 bg-gradient-to-b from-purple-500/5 to-transparent">
+      <section className="py-20 px-6 bg-gradient-to-b from-green-500/5 to-transparent">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-12">
             Como funciona
@@ -214,7 +214,7 @@ export default function CRMAIPage() {
             ].map((item, index) => (
               <div key={index} className="flex gap-6">
                 <div className="flex-shrink-0">
-                  <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center font-bold text-white text-xl shadow-lg">
+                  <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-green-500 to-emerald-500 flex items-center justify-center font-bold text-white text-xl shadow-lg">
                     {item.step}
                   </div>
                 </div>
@@ -227,9 +227,9 @@ export default function CRMAIPage() {
           </div>
 
           {/* Closing Line */}
-          <div className="rounded-2xl bg-gradient-to-r from-purple-500/10 to-pink-500/10 border border-purple-500/20 p-8 text-center">
+          <div className="rounded-2xl bg-gradient-to-r from-green-500/10 to-emerald-500/10 border border-green-500/20 p-8 text-center">
             <p className="text-xl text-white font-semibold leading-relaxed">
-              <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Resultado:</span>
+              <span className="bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent">Resultado:</span>
               {" "}pipeline organizado, leads qualificados e equipa focada em fechar vendas.
             </p>
           </div>
@@ -267,9 +267,9 @@ export default function CRMAIPage() {
             ].map((item, index) => (
               <div
                 key={index}
-                className="rounded-2xl bg-gradient-to-br from-[#1a1a2e] to-[#0d0d1a] border-2 border-purple-500/30 p-8 hover:border-purple-500/50 transition-all duration-300 shadow-lg shadow-purple-500/10"
+                className="rounded-2xl bg-gradient-to-br from-[#1a1a2e] to-[#0d0d1a] border-2 border-green-500/30 p-8 hover:border-green-500/50 transition-all duration-300 shadow-lg shadow-green-500/10"
               >
-                <div className="w-14 h-14 mb-6 rounded-xl bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center shadow-lg">
+                <div className="w-14 h-14 mb-6 rounded-xl bg-gradient-to-br from-green-500 to-emerald-500 flex items-center justify-center shadow-lg">
                   <item.icon className="w-7 h-7 text-white" />
                 </div>
                 <h3 className="text-2xl font-bold text-white mb-3">{item.title}</h3>
@@ -302,8 +302,8 @@ export default function CRMAIPage() {
                 className="rounded-xl bg-gradient-to-br from-[#1a1a2e]/60 to-[#0d0d1a]/60 border border-white/10 p-6 hover:border-white/20 transition-all duration-300"
               >
                 <div className="flex gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-gradient-to-br from-purple-500/20 to-pink-500/20 flex items-center justify-center">
-                    <item.icon className="w-6 h-6 text-purple-400" />
+                  <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-gradient-to-br from-green-500/20 to-emerald-500/20 flex items-center justify-center">
+                    <item.icon className="w-6 h-6 text-green-400" />
                   </div>
                   <div className="flex-1">
                     <h3 className="text-lg font-bold text-white mb-2">{item.title}</h3>
@@ -319,7 +319,7 @@ export default function CRMAIPage() {
       {/* CTA Final - Simplified */}
       <section className="py-20 px-6">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="rounded-3xl bg-gradient-to-br from-purple-500/10 to-pink-500/10 border border-purple-500/20 p-12">
+          <div className="rounded-3xl bg-gradient-to-br from-green-500/10 to-emerald-500/10 border border-green-500/20 p-12">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
               Vamos conversar sobre o teu processo de vendas?
             </h2>
@@ -329,7 +329,7 @@ export default function CRMAIPage() {
             </p>
             <Button
               size="lg"
-              className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-400 hover:to-pink-400 text-white font-semibold px-10 py-6 text-lg rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 mb-6"
+              className="bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-400 hover:to-emerald-400 text-white font-semibold px-10 py-6 text-lg rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 mb-6"
               onClick={() => setShowCalendar(true)}
             >
               Agendar chamada
@@ -352,7 +352,7 @@ export default function CRMAIPage() {
         onClose={() => setShowCalendar(false)}
         productName="CRM All-in-One"
         duration="30 min"
-        accentColor="purple"
+        accentColor="green"
       />
     </main>
   )

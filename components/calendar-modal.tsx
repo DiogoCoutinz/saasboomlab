@@ -57,11 +57,19 @@ export function CalendarModal({
         }
       case "purple":
         return {
-          bg: "bg-gradient-to-r from-purple-500 to-pink-500",
-          hover: "hover:bg-purple-500/20",
-          border: "border-purple-500",
-          text: "text-purple-400",
-          ring: "ring-purple-500/50"
+          bg: "bg-gradient-to-r from-green-500 to-emerald-500",
+          hover: "hover:bg-green-500/20",
+          border: "border-green-500",
+          text: "text-green-400",
+          ring: "ring-green-500/50"
+        }
+      case "green":
+        return {
+          bg: "bg-gradient-to-r from-green-500 to-emerald-500",
+          hover: "hover:bg-green-500/20",
+          border: "border-green-500",
+          text: "text-green-400",
+          ring: "ring-green-500/50"
         }
       default:
         return {
@@ -252,6 +260,7 @@ export function CalendarModal({
     </div>
   )
 }
+
 
 
 
