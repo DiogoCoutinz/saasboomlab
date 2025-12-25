@@ -47,13 +47,8 @@ export function HeroSection({ onScheduleDemo, onViewSolutions }: HeroSectionProp
 
               {/* Social Proof */}
               <div className="flex items-center gap-4 pt-4">
-                <div className="flex -space-x-3">
-                  <div className="w-10 h-10 rounded-full bg-gradient-to-br from-blue-400 to-cyan-400 border-2 border-[#1a1a2e]" />
-                  <div className="w-10 h-10 rounded-full bg-gradient-to-br from-teal-400 to-green-400 border-2 border-[#1a1a2e]" />
-                  <div className="w-10 h-10 rounded-full bg-gradient-to-br from-cyan-400 to-blue-400 border-2 border-[#1a1a2e]" />
-                </div>
                 <p className="text-gray-400 text-sm">
-                  <span className="text-white font-medium">+50 empresas</span> já automatizaram processos
+                  <span className="text-white font-medium">+100 empresas</span> já automatizaram processos
                 </p>
               </div>
             </div>

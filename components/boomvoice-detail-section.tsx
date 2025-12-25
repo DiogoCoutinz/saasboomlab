@@ -1,8 +1,13 @@
+"use client"
+
+import { useState } from "react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
+import { TestVoiceModal } from "@/components/test-voice-modal"
 import { CheckCircle, Phone, Clock, TrendingUp, Headphones, ArrowRight } from "lucide-react"
 
 export function BoomVoiceDetailSection() {
+  const [showTestModal, setShowTestModal] = useState(false)
   const features = [
     "Atendimento automático 24/7 sem pausas",
     "Qualificação inteligente de leads em tempo real",
@@ -91,16 +96,15 @@ export function BoomVoiceDetailSection() {
             </ul>
 
             <div className="flex flex-wrap gap-4 pt-4">
-              <Link href="/agentes-voz">
-                <Button
-                  size="lg"
-                  className="bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-400 hover:to-teal-400 text-white font-semibold px-8 py-6 text-base rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 group"
-                >
-                  <Phone className="w-5 h-5 mr-2" />
-                  Experimentar por 1€
-                  <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-                </Button>
-              </Link>
+              <Button
+                size="lg"
+                className="bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-400 hover:to-teal-400 text-white font-semibold px-8 py-6 text-base rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 group"
+                onClick={() => setShowTestModal(true)}
+              >
+                <Phone className="w-5 h-5 mr-2" />
+                Experimentar por 1€
+                <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+              </Button>
               <Link href="/agentes-voz">
                 <Button
                   size="lg"
@@ -111,6 +115,11 @@ export function BoomVoiceDetailSection() {
                 </Button>
               </Link>
             </div>
+            
+            <TestVoiceModal 
+              isOpen={showTestModal} 
+              onClose={() => setShowTestModal(false)}
+            />
           </div>
         </div>
       </div>

@@ -37,7 +37,7 @@ export default function Home() {
       <BoomVoiceDetailSection />
       <FeaturesSection />
       <FAQSection />
-      <SpecialOfferSection />
+      <SpecialOfferSection onScheduleDemo={() => setShowCalendar(true)} />
       <NewsletterSection />
       <Footer />
       

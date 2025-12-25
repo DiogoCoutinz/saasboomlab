@@ -10,13 +10,13 @@ const features = [
     id: "finai",
     badge: "FineAI",
     badgeIcon: FileText,
-    title: "Análise de FINs bancárias",
+    title: "Análise de FINEs bancárias",
     highlight: "em 40 segundos",
     description:
       "O FineAI processa e compara documentos financeiros bancários instantaneamente. Extraia dados críticos, identifique as melhores propostas e tome decisões informadas com relatórios automáticos.",
     impactLine: "Ideal para empresas, consultores e gestores que analisam propostas bancárias com frequência.",
     points: [
-      "Processamento automático de FINs bancárias",
+      "Processamento automático de FINEs bancárias",
       "Comparação instantânea de propostas",
       "Relatórios detalhados e exportáveis em PDF",
       "Integração com principais bancos portugueses",

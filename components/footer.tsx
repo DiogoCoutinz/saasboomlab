@@ -18,7 +18,7 @@ const socialLinks = [
 
 export function Footer() {
   return (
-    <footer className="py-16 px-6 border-t border-white/10 bg-[#050505]">
+    <footer id="footer" className="py-16 px-6 border-t border-white/10 bg-[#050505]">
       <div className="max-w-7xl mx-auto">
         {/* Logo */}
         <div className="flex justify-center mb-10">

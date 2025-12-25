@@ -139,18 +139,11 @@ export function Navbar() {
                 <div className="p-6">
                   <div className="space-y-3">
                     <Button
-                      className="w-full bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-400 hover:to-teal-400 text-white font-semibold rounded-xl"
-                      onClick={() => setIsMenuOpen(false)}
-                    >
-                      <Calendar className="w-4 h-4 mr-2" />
-                      Agendar Demonstração
-                    </Button>
-                    <Button
                       variant="outline"
                       className="w-full border-white/20 text-gray-300 hover:bg-white/5 hover:text-white rounded-xl"
                       asChild
                     >
-                      <Link href="tel:+351123456789" onClick={() => setIsMenuOpen(false)}>
+                      <Link href="#footer" onClick={() => setIsMenuOpen(false)}>
                         <Phone className="w-4 h-4 mr-2" />
                         Falar Connosco
                       </Link>

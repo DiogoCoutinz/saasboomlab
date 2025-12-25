@@ -35,7 +35,7 @@ export default function FineAIPage() {
               </h1>
               
               <p className="text-gray-400 text-xl leading-relaxed mb-8">
-                Processa e compara FINs bancárias instantaneamente. Extrai dados críticos, 
+                Processa e compara FINEs bancárias instantaneamente. Extrai dados críticos, 
                 identifica as melhores propostas e toma decisões informadas com IA.
               </p>
 
@@ -68,7 +68,7 @@ export default function FineAIPage() {
                   </div>
                   <div className="text-center">
                     <p className="text-white font-semibold text-lg mb-1">Demonstração em vídeo</p>
-                    <p className="text-gray-400 text-sm">Vê o FineAI a processar FINs em tempo real</p>
+                    <p className="text-gray-400 text-sm">Vê o FineAI a processar FINEs em tempo real</p>
                   </div>
                 </div>
               </div>
@@ -84,7 +84,7 @@ export default function FineAIPage() {
           <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-4">
             Feito para profissionais que{" "}
             <span className="bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent">
-              lidam com FINs diariamente
+              lidam com FINEs diariamente
             </span>
           </h2>
           <p className="text-gray-400 text-center text-lg mb-12 max-w-3xl mx-auto">
@@ -96,7 +96,7 @@ export default function FineAIPage() {
               {
                 icon: Building2,
                 title: "Mediadores de crédito",
-                description: "Que analisam dezenas de FINs por semana e precisam de comparações rápidas e precisas para clientes",
+                description: "Que analisam dezenas de FINEs por semana e precisam de comparações rápidas e precisas para clientes",
               },
               {
                 icon: BarChart3,
@@ -134,7 +134,7 @@ export default function FineAIPage() {
           <div className="space-y-6">
             {[
               {
-                problem: "Horas gastas a ler e extrair dados de FINs manualmente",
+                problem: "Horas gastas a ler e extrair dados de FINEs manualmente",
                 solution: "Extração automática em 40 segundos com precisão de 99.5%",
                 primary: true,
               },
@@ -209,7 +209,7 @@ export default function FineAIPage() {
               {
                 step: "1",
                 title: "Upload de Documentos",
-                description: "Faz upload de uma ou múltiplas FINs bancárias em PDF. A IA processa imediatamente, independentemente do formato ou banco emissor.",
+                description: "Faz upload de uma ou múltiplas FINEs bancárias em PDF. A IA processa imediatamente, independentemente do formato ou banco emissor.",
               },
               {
                 step: "2",
@@ -299,7 +299,7 @@ export default function FineAIPage() {
               {
                 icon: Building2,
                 title: "Compatível com todos os bancos",
-                description: "Funciona com FINs de qualquer banco português, independente do formato",
+                description: "Funciona com FINEs de qualquer banco português, independente do formato",
               },
               {
                 icon: Clock,
@@ -331,10 +331,10 @@ export default function FineAIPage() {
         <div className="max-w-4xl mx-auto text-center">
           <div className="rounded-3xl bg-gradient-to-br from-blue-500/10 to-indigo-500/10 border border-blue-500/20 p-12">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-              Pronto para automatizar a análise de FINs?
+              Pronto para automatizar a análise de FINEs?
             </h2>
             <p className="text-gray-400 text-lg mb-8 max-w-2xl mx-auto">
-              Agenda uma demonstração e traz exemplos de FINs reais. 
+              Agenda uma demonstração e traz exemplos de FINEs reais. 
               Vamos processar em tempo real e mostrar-te o poder da ferramenta.
             </p>
             <div className="flex flex-wrap justify-center gap-4 mb-6">
@@ -357,7 +357,7 @@ export default function FineAIPage() {
             <div className="max-w-xl mx-auto">
               <p className="text-gray-400 text-sm leading-relaxed">
                 Na demonstração iremos:<br />
-                <span className="text-white">• Processar as tuas FINs em tempo real</span><br />
+                <span className="text-white">• Processar as tuas FINEs em tempo real</span><br />
                 <span className="text-white">• Mostrar-te relatórios de comparação personalizados</span>
               </p>
             </div>

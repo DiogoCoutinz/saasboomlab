@@ -10,7 +10,7 @@ const services = [
   {
     icon: FileText,
     title: "FineAI (Comparador)",
-    description: "Análise de FINs bancárias em 40 segundos.",
+    description: "Análise de FINEs bancárias em 40 segundos.",
   },
   {
     icon: Users,
